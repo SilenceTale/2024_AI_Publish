@@ -1,0 +1,9 @@
+div {
+  background-color: black;
+  color: white;
+  width: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  font-weight: 500;
+}
