@@ -1,0 +1,55 @@
+.pallete {
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+}
+.flexer {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  align-items: end;
+  justify-content: end;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.a {
+  background-color: #1abc9c;
+  color: white;
+}
+.b {
+  background-color: #2ecc71;
+  color: white;
+}
+.c {
+  background-color: #3498db;
+  color: white;
+}
+.d {
+  background-color: #16a085;
+  color: white;
+}
+.e {
+  background-color: #27ae60;
+  color: white;
+}
+.f {
+  background-color: #16a085;
+  color: white;
+}
+.g {
+  background-color: #f1c40f;
+  color: white;
+}
+.h {
+  background-color: #e67e22;
+  color: white;
+}
+.i {
+  background-color: #e74c3c;
+  color: white;
+}
