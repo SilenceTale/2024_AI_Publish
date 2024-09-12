@@ -1,9 +1,0 @@
-.album {
-  width: 100px;
-  height: 100px;
-}
-.album > img {
-  width: 50%;
-  height: 50%;
-  object-fit: cover;
-}
