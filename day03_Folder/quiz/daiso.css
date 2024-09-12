@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  background-color: white;
+  width: fit-content;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  columns: black;
+  font-size: 25px;
+}
+.newproduct {
+  font-size: 25px;
+  font-weight: 700;
+}
+.newcome {
+  color: gray;
+  font-size: 15px;
+}
+.shoping {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+}
+.contents {
+  display: flex;
+  flex-direction: column;
+}
+.album {
+  width: 175px;
+  height: 200px;
+  background-size: contain;
+}
+.one {
+  background-image: url("https://cdn.daisomall.co.kr/file/PD/20240904/tF4murpPzedjBN03Z86a1047816_00_00tF4murpPzedjBN03Z86a.jpg/dims/resize/320/quality/90");
+}
+.two {
+  background-image: url("https://cdn.daisomall.co.kr/file/PD/20240911/EwxznUL7BdU0JsKtDyV21053921_00_00EwxznUL7BdU0JsKtDyV2.jpg/dims/resize/320/quality/90");
+}
+.three {
+  background-image: url("https://cdn.daisomall.co.kr/file/PD/20240822/cfzWDxQLWDONeK7ZCs8M1049422_00_00cfzWDxQLWDONeK7ZCs8M.jpg/dims/resize/320/quality/90");
+}
+.four {
+  background-image: url("https://cdn.daisomall.co.kr/file/PD/20240903/GeIgXwqMVtIqg3AJEOM91049947_00_00GeIgXwqMVtIqg3AJEOM9.jpg/dims/resize/320/quality/90");
+}
+.five {
+  background-image: url("https://cdn.daisomall.co.kr/file/PD/20240826/ntz4aGMDjqT2L0a5ngjo1059502_00_00ntz4aGMDjqT2L0a5ngjo.jpg/dims/resize/320/quality/90");
+}

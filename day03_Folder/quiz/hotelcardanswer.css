@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "RixXladywatermelonR";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2408-4@1.0/RixXladywatermelonR.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.card {
+  width: 350px;
+  height: 450px;
+  border-radius: 20px;
+  background-size: cover;
+  padding: 20px 20px 0px 50px;
+}
+
+.one {
+  background-image: url("e1.jpg");
+}
+.two {
+  background-image: url("e2.jpg");
+}
+.three {
+  background-image: url("e3.jpg");
+}
+.four {
+  background-image: url("e4.jpg");
+}
+
+.contents {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.category {
+  font-family: "RixXladywatermelonR";
+  color: lightgreen;
+  border-bottom: 1px solid lightgreen;
+  width: fit-content;
+  padding: 3px;
+}
+
+.event {
+  display: flex;
+  flex-direction: column;
+}
+.event > span {
+  font-family: "RixXladywatermelonR";
+  color: lightgreen;
+  font-size: 26px;
+}
+.sub {
+  font-family: "RixXladywatermelonR";
+  color: lightgreen;
+}
