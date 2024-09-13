@@ -1,0 +1,46 @@
+.main {
+  width: 100vw;
+  height: 90vh;
+  background-image: url("https://www.genesis.com/content/dam/genesis-p2/kr/assets/main/hero/genesis-main-key-visual-gv70-25fl-main-hero-desktop-2560x900-kr.jpg");
+  background-size: cover;
+  /* 배경사진 중앙화 */
+  background-position: center;
+}
+
+.centeredbox {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding-top: 150px;
+}
+.contents {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+
+  gap: 20px;
+  position: relative;
+}
+
+.h5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 30px;
+  font-weight: 200;
+}
+.h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 70px;
+  font-weight: 200;
+}

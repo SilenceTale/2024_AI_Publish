@@ -1,0 +1,57 @@
+@import url("https://static.toss.im/tps/main.css");
+@import url("https://static.toss.im/tps/others.css");
+
+* {
+  font-family: "Toss Product Sans";
+}
+
+.header {
+  width: 100vw;
+  /* top right bottom left */
+  /* position: fixed는 스크롤 내려도 끝까지 따라옴 */
+  position: fixed;
+  top: 0px;
+  z-index: 1;
+}
+.nav {
+  /* centering 해준것 */
+  width: 100%;
+  margin: 0 auto;
+
+  /* 자식들을 세로로 중앙화 가로는 멀리멀리 */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 120px;
+  height: 60px;
+}
+.logo > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.links {
+  /* 링크(.links)들을 가로로 배치 */
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  font-size: 15px;
+  color: #4e5968;
+  font-family: "Toss Product Sans";
+}
+
+.links > li {
+  /* 버튼 안의 여백 */
+  padding: 12px 10px;
+  border-radius: 8px;
+  background-color: transparent;
+}
+
+.links > li:hover {
+  padding: 12px 10px;
+  background-color: rgba(2, 32, 71, 0.05);
+}
